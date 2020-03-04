@@ -2,7 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-FILEDIR = "C:/Users/inasahu/PycharmProjects/SeleniumPython/"
+#FILEDIR = "C:/Users/inasahu/PycharmProjects/SeleniumPython/"
+FILEDIR = "C:/Users/Anurag/PycharmProjects/Python-Selenium/"
 
 
 def select_browser(browser_name: str):
