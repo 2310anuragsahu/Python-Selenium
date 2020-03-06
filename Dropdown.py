@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
@@ -43,6 +44,17 @@ if not profession.is_selected():
 driver.implicitly_wait(5)
 
 time.sleep(5)
+
+#
+# Dropdown Code
+#
+dropdown = Select(driver.find_element_by_id("continentsmultiple"))
+# dropdown.select_by_index(1)
+# time.sleep(3)
+# dropdown.select_by_value("EU")
+# time.sleep(3)
+dropdown.select_by_visible_text("South America")
+time.sleep(3)
 
 driver.quit()
 

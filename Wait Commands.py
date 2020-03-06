@@ -13,7 +13,9 @@ FILEDIR = "C:/Users/Anurag/PycharmProjects/Python-Selenium/"
 
 driver = webdriver.Chrome(executable_path=FILEDIR + "Drivers/chromedriver.exe")
 
-# implicit wait
+#
+# Implicit wait
+#
 driver.implicitly_wait(5)
 
 driver.get("http://www.newtours.demoaut.com/")
@@ -37,11 +39,13 @@ driver.find_element_by_name("login").click()
 
 driver.implicitly_wait(5)
 
-# explicit wait
+#
+# Explicit wait
+#
 wait = WebDriverWait(driver, 10)
 # wait.until(EC.element_to_be_clickable(By.XPATH, "*//form[@name='findflight']//input[@value='roundtrip']"))
 # OR
-element=wait.until(EC.element_to_be_clickable((By.XPATH, "*//form[@name='findflight']//input[@value='roundtrip']")))
+element = wait.until(EC.element_to_be_clickable((By.XPATH, "*//form[@name='findflight']//input[@value='roundtrip']")))
 element.click()
 print("clicked")
 
