@@ -1,0 +1,17 @@
+DEBUG:root:This is debug
+INFO:root:This is error
+WARNING:root:This is warning
+ERROR:root:This is error
+CRITICAL:root:This is critical
+
+2020-03-09 14:18:30,237: DEBUG: This is debug
+2020-03-09 14:18:30,250: INFO: This is error
+2020-03-09 14:18:30,251: WARNING: This is warning
+2020-03-09 14:18:30,251: ERROR: This is error
+2020-03-09 14:18:30,251: CRITICAL: This is critical
+
+03/09/2020 03:44:52 PM: DEBUG: This is debug
+03/09/2020 03:44:52 PM: INFO: This is error
+03/09/2020 03:44:52 PM: WARNING: This is warning
+03/09/2020 03:44:52 PM: ERROR: This is error
+03/09/2020 03:44:52 PM: CRITICAL: This is critical
