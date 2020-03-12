@@ -2,10 +2,17 @@
 
 pytest -v -s test_PytestDemo.py
 
+----------------------------------------------------------------------------------------------
 2. Run all tests(from all modules) in a path
 
 pytest -v -s C:\Users\inasahu\PycharmProjects\Python-Selenium\PyTestDemo\
 
+----------------------------------------------------------------------------------------------
 3. Run specific test method from a module
 
 pytest -v -s test_PytestDemo.py::test_loginByFaceBook
+
+----------------------------------------------------------------------------------------------
+4 Running specific Test from Parent window
+
+pytest -v -s \PyTestDemo\test_Pytest\Allure_Reporting_pytest\test_Orange_AllureReporting.py

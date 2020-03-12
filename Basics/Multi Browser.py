@@ -28,3 +28,6 @@ print(driver.page_source)
 time.sleep(5)
 
 driver.close()
+
+# If we don't want to give the executable_path, we need to copy the drivers
+# where we have python; inside Scripts

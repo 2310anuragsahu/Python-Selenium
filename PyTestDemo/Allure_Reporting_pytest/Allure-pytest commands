@@ -1,0 +1,12 @@
+----------------------------------------------------------------------------------------------
+1. Running specific Test from Parent window
+
+pytest -v -s  --alluredir="C:\Users\inasahu\PycharmProjects\Python-Selenium\PyTestDemo\Allure_Reporting_pytest\reports"
+.\PyTestDemo\Allure_Reporting_pytest\test_Orange_AllureReporting.py
+
+(all in single line)
+----------------------------------------------------------------------------------------------
+2. In cmd Type:
+
+allure serve <same path as alluredir>
+----------------------------------------------------------------------------------------------

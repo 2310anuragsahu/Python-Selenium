@@ -1,15 +1,14 @@
 import time
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from DataDrivenTestingExcel import ExcelUtilities
 
-#FILEDIR = "C:/Users/inasahu/PycharmProjects/SeleniumPython/"
-FILEDIR = "C:/Users/Anurag/PycharmProjects/Python-Selenium/"
+FILEDIR = "C:/Users/inasahu/PycharmProjects/SeleniumPython/"
+#FILEDIR = "C:/Users/Anurag/PycharmProjects/Python-Selenium/"
 
 path = "C:/Users/Anurag/PycharmProjects/Python-Selenium/DataDrivenTestingExcel/Login.xlsx"
 page_title = "Find a Flight: Mercury Tours: "
 
-driver = webdriver.Chrome(executable_path=FILEDIR + "Drivers/chromedriver.exe")
+#driver = webdriver.Chrome(executable_path=FILEDIR + "Drivers/chromedriver.exe")
+driver = webdriver.Chrome()
 
 driver.get("http://amazon.in")
 driver.maximize_window()
